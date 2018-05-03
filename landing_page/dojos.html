@@ -1,0 +1,47 @@
+<html>
+<head>
+    <script>
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
+</head>
+<body> 
+    <h1>Coding Dojo</h1>
+    <form action='/register' method='post'>
+        <h3>Register</h3>
+        <table>
+            <tr>
+                <td><label>First Name:</label></td>
+                <td><input type='text' name='firstName'></td>
+            </tr>
+            <tr>
+                <td><label>Last Name:</label></td>
+                <td><input type='text' name='lastName'></td>
+            </tr>
+            <tr>
+                <td><label>Username:</label></td>
+                <td><input type='text' name='username'></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type='text' name='email'></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type='password' name='password'></td>
+            </tr>
+            <tr>
+                <td colspan="2"><p id='notice'>*Password should be at least 8 characters</p></td>
+            </tr>
+            <tr>
+                <td><label>Confrim password:</label></td>
+                <td><input type='password' name='confirmPass'></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type='submit' id='submit' value='Register' class='buttons'></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
